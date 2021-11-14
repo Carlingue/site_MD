@@ -1,0 +1,7 @@
+{# template/_recent_peinture.html.twig #}
+{% for peinture in peintures %}
+	<a href="{{ path('index') }}">
+		{{ peinture }}
+	</a>
+	<br />
+{% endfor %}
